@@ -9,14 +9,17 @@ declare interface RouteInfo {
 }
 
 export const ROUTES: RouteInfo[] = [
-  {path: '/dashboard', title: 'Dashboard', icon: 'ni-tv-2 text-primary', class: ''},
-  {path: '/icons', title: 'Icons', icon: 'ni-planet text-blue', class: ''},
-  {path: '/maps', title: 'Maps', icon: 'ni-pin-3 text-orange', class: ''},
-  {path: '/user-profile', title: 'User profile', icon: 'ni-single-02 text-yellow', class: ''},
-  {path: '/tables', title: 'Tables', icon: 'ni-bullet-list-67 text-red', class: ''},
+  {path: '/dashboard', title: 'Vista General', icon: 'ni-tv-2 text-primary', class: ''},
+  {path: '/icons', title: 'Iconos', icon: 'ni-planet text-blue', class: ''},
+  {path: '/maps', title: 'Culto', icon: 'ni-pin-3 text-orange', class: ''},
+  {path: '/user-profile', title: 'Usuarios', icon: 'ni-single-02 text-yellow', class: ''},
+  {path: '/tables', title: 'Avance', icon: 'ni-bullet-list-67 text-red', class: ''},
+  /**
   {path: '/login', title: 'Login', icon: 'ni-key-25 text-info', class: ''},
-  {path: '/register', title: 'Register', icon: 'ni-circle-08 text-pink', class: ''},
-  {path: '/products', title: 'Products', icon: 'ni-bullet-list-67 text-red', class: ''},
+  mmm 50/50 si implementar el login :V xd
+  */
+  {path: '/register', title: 'Registrar Usuario', icon: 'ni-circle-08 text-pink', class: ''},
+  {path: '/products', title: 'Módulos', icon: 'ni-bullet-list-67 text-red', class: ''},
 ];
 
 @Component({
